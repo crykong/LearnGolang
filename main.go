@@ -1,11 +1,9 @@
 package main
 
-import (
-	"LearnGolang/goroutine"
-	_ "LearnGolang/goroutine"
-)
+import "LearnGolang/goroutine"
 
 func main() {
 
-	goroutine.GoroutineInint()
+	//goroutine.GoroutineInint()
+	goroutine.ChanMain()
 }
